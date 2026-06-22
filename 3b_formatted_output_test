@@ -1,0 +1,9 @@
+theia@theiadocker-ma7moudddd1:/home/project/final_project$ python3 emotion_detection.py
+Enter text to analyze emotion: I am so happy I am doing this.
+Emotion scores:
+anger: 0.0043
+disgust: 0.0004
+fear: 0.0035
+joy: 0.9947
+sadness: 0.0127
+Dominant emotion: joy
