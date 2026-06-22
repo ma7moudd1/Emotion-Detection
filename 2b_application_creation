@@ -1,0 +1,3 @@
+theia@theiadocker-ma7moudddd1:/home/project/final_project$ python3 emotion_detection.py
+Enter text to analyze emotion: I love this new technology.
+Dominant emotion: joy
