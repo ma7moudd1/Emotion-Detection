@@ -1,0 +1,34 @@
+theia@theiadocker-ma7moudddd1:/home/project/final_project$ python3 test_emotion_detection.py
+Traceback (most recent call last):
+  File "/home/project/final_project/test_emotion_detection.py", line 2, in <module>
+    from EmotionDetection.emotion_detection import emotion_detector
+  File "/home/project/final_project/EmotionDetection/__init__.py", line 1, in <module>
+    from .emotion_detection import emotion_detector
+  File "/home/project/final_project/EmotionDetection/emotion_detection.py", line 1, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+theia@theiadocker-ma7moudddd1:/home/project/final_project$ python3 -m pip install requests
+Defaulting to user installation because normal site-packages is not writeable
+Collecting requests
+  Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 73.1/73.1 KB 2.7 MB/s eta 0:00:00
+Collecting charset_normalizer<4,>=2
+  Downloading charset_normalizer-3.4.7-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (216 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 216.9/216.9 KB 11.2 MB/s eta 0:00:00
+Collecting urllib3<3,>=1.26
+  Downloading urllib3-2.7.0-py3-none-any.whl (131 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 131.1/131.1 KB 21.3 MB/s eta 0:00:00
+Collecting certifi>=2023.5.7
+  Downloading certifi-2026.6.17-py3-none-any.whl (133 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.3/133.3 KB 22.2 MB/s eta 0:00:00
+Collecting idna<4,>=2.5
+  Downloading idna-3.18-py3-none-any.whl (65 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 65.5/65.5 KB 12.1 MB/s eta 0:00:00
+Installing collected packages: urllib3, idna, charset_normalizer, certifi, requests
+Successfully installed certifi-2026.6.17 charset_normalizer-3.4.7 idna-3.18 requests-2.34.2 urllib3-2.7.0
+theia@theiadocker-ma7moudddd1:/home/project/final_project$ python3 test_emotion_detection.py
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.578s
+
+OK
